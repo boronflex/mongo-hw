@@ -21,17 +21,7 @@ $(document).ready(function(){
   
   $( "#start-scrape" ).click(()=>{
 
-    let newCard = addCard();
-
-    console.log(newCard)
-
-    $( ".card-catalog" ).append( newCard );
-    
-    // newCard.forEach(element => {
-
-      
-      
-    // });
+    $( ".card-catalog" ).append( addCard() );
     
   });
   
