@@ -4,6 +4,10 @@ var express = require("express");
 
 var router = express.Router();
 
+var axios = require("axios")
+
+var cheerio = require("cheerio")
+
 var db = require("../models");
 
 // A GET route for scraping the echojs website
